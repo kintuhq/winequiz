@@ -13,7 +13,7 @@
         <div class="header">
             <img src="logo.png" alt="Wine Quiz Logo" width="50" height="50">
             <h1>Wine Quiz</h1>
-            <p class="welcome-text">Welcome to WineQuiz, a fun quiz you can use to see how much you know about the wine world.</p>
+            <p class="welcome-text">Let'see how much you really know about wine!</p>
         </div>
         <?php
         $questions = [
