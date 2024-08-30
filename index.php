@@ -55,9 +55,8 @@
         } else {
             echo '<form method="post">';
             foreach ($questions as $index => $q) {
-                $questionNumber = $index + 1; // Add this line to create the question number
                 echo "<div class='question'>";
-                echo "<p><strong>$questionNumber. " . htmlspecialchars($q['question']) . "</strong></p>"; // Modified this line
+                echo "<p><strong>" . htmlspecialchars($q['question']) . "</strong></p>"; // Removed question number
                 foreach ($q['options'] as $option) {
                     echo "<label><input type='radio' name='q$index' value='$option' required> $option</label><br>";
                 }
